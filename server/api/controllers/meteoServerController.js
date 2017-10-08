@@ -28,7 +28,6 @@ exports.read_a_sensor = function(req, res) {
   });
 };
 
-
 exports.update_a_sensor = function(req, res) {
   Sensor.findOneAndUpdate({_id: req.params.sensorId}, req.body, {new: true}, function(err, sensor) {
     if (err)
@@ -36,7 +35,6 @@ exports.update_a_sensor = function(req, res) {
     res.json(Sensor);
   });
 };
-
 
 exports.delete_a_sensor = function(req, res) {
   Sensor.remove({
