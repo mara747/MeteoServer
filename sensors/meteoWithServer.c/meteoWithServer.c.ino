@@ -1,4 +1,6 @@
 /*
+  https://www.zive.cz/clanky/pojdme-programovat-elektroniku-postavime-si-titernou-wi-fi-meteostanici-s-lepsim-teplomerem-nez-netatmo/sc-3-a-188184/default.aspx
+  
   Namisto obvykleho vypisu do seriove linky pomoci Serial.print()
   pouziji knihovnu Streaming a format Serial << promenna << promenna atd.
   Streaming stahnete z webu http://arduiniana.org/libraries/streaming/
